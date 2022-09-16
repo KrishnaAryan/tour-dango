@@ -50,6 +50,7 @@
 {% comment %} close navbar {% endcomment %}
 
 {% comment %} card {% endcomment %}
+<h3>Search data</h3>
 {% for i in photo %}
 <div class="row">
   <div class="column">
@@ -60,7 +61,6 @@
             <img src="/media/{{i.photo}}" alt="image" style="width:100%">
           </div>
           <h2>{{i.date}}</h2> 
-          <p>{{i.location}}</p> 
         </div>
       </li>
     </ul>
